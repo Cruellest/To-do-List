@@ -1,0 +1,105 @@
+body{
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+}
+
+.app{
+  max-width: 800px;
+  margin: 0 auto 300px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  /* É utilizado para que o input não fique com a borda arredondada
+  * e não fique com o tamanho maior do que o esperado em relação ao elemento pai
+  */
+  box-sizing: border-box;
+}
+
+/* Botão */
+button{
+  padding: 5px 10px;
+  background-color: #2a70db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: .3s;
+  margin-right: 5px;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo{
+  background-color: #f1f0f0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete{
+  background-color: #5cb85c;
+}
+
+.remove{
+  background-color: #d9534f;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.filter, .search{
+  margin-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20PX;
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div{
+  flex: 1 1 0;
+}
